@@ -31,8 +31,9 @@ function getComputerChoice() {
 
 
 
-function playRound(userSelection, computerSelection) {
-        userSelection = userSelection.toLowerCase();
+function playRound(uSelect, cSelction) {
+        let userSelection = uSelect.toLowerCase();
+        let computerSelection = cSelction;
         if(userSelection == 'rock' && computerSelection =="scissors") {
             return `You won! Rock beats Scissors`;
         } else if (userSelection == 'scissors' && computerSelection =="paper") {
@@ -42,7 +43,18 @@ function playRound(userSelection, computerSelection) {
         } 
         return `You lost ${computerSelection} beats ${userSelection}`;
 
+
 }
 
-let winner = playRound('rock',getComputerChoice());
-console.log(winner);
+function game() {
+
+            let counter = 0;
+            while (counter <5) {
+               console.log( playRound("paper",getComputerChoice()));
+                counter +=1;
+
+            }
+
+}
+
+game();
