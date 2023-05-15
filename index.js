@@ -32,6 +32,7 @@ function getComputerChoice() {
 
 
 function playRound(uSelect, cSelction) {
+
         let userSelection = uSelect.toLowerCase();
         let computerSelection = cSelction;
         if(userSelection == 'rock' && computerSelection =="scissors") {
@@ -50,7 +51,8 @@ function game() {
 
             let counter = 0;
             while (counter <5) {
-               console.log( playRound("paper",getComputerChoice()));
+                let userInput = prompt("Rock,paper,scissors");
+               console.log( playRound(userInput,getComputerChoice()));
                 counter +=1;
 
             }
