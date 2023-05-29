@@ -22,8 +22,7 @@ function playRound(uSelect, cSelction) {
             return `Tied! ${userSelection} can not beat ${computerSelection}`;
         }
         return `You lost ${computerSelection} beats ${userSelection}`;
-
-
+        
 }
 
 function game() {
