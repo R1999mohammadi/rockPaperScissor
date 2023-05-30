@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rockPaperScissor</title>
     <link rel="stylesheet" href="index.css">
-      <link rel="icon" type="image" href="../mix.jpg">
+      <link rel="icon" type="image" href="/images/mix.jpg">
       <!-- implement fivIcon on this project-->
 
 </head>
@@ -14,25 +14,38 @@
     
     <div class="main">
         <div class="info">
-            <h1>Let's paly Rock Paper, Scissors</h1>
-            
+            <h1>Let's paly Rock Paper Scissors</h1>
+            <h2>You are playing against computer</h2>
         </div>
-        <div class="selection">
-            <div class="images">
-                <img src="/images/rock.png"alt="">
-                <img src="/images/paper.png" alt="">
-                <img src="/images/scissors.jpeg" alt="">
-            </div>
+        <div class="images">
+                <div class="images">
+                    <button class="text" value = "rock">
+                        <h3>rock</h3>
+                        <img src="/images/rock1.png" >
+                    </button>
+                    <button class="text" value = "paper">
+                        <h3>paper</h3>
+                        <img src="/images/paper.png">
+                    </button>
+                    <button class="text" value = "scissors">
+                        <h3>scissors</h3>
+                        <img src="/images/scissors.jpeg">
+                    </button>
+                </div>
         </div>
+
         <div class="result">
-                <span>your Score:  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; computer Score:  </span>
+                <h1 id = "result "></h1>
+                <h3 id = "yourScore">Your Score: <span id ="show"></span> </h3>
+                <h3 id = "computerScore">Computer Score: <span id = "show1"></span></h3>
+          
         </div>
-        <button class="playAgain">play again</button>
+        <button class="clear">reset</button>
     </div>
 
-    
+
 
     <script src="index.js"></script>
     
 </body>
-</html>
+</&nbsp;
