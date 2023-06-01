@@ -6,46 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rockPaperScissor</title>
     <link rel="stylesheet" href="index.css">
-      <link rel="icon" type="image" href="/images/mix.jpg">
-      <!-- implement fivIcon on this project-->
-
+      
+  
 </head>
 <body>
-    
-    <div class="main">
-        <div class="info">
-            <h1>Let's paly Rock Paper Scissors</h1>
-            <h2>You are playing against computer</h2>
-        </div>
-        <div class="images">
-                <div class="images">
-                    <button class="text" value = "rock">
-                        <h3>rock</h3>
-                        <img src="/images/rock1.png" >
-                    </button>
-                    <button class="text" value = "paper">
-                        <h3>paper</h3>
-                        <img src="/images/paper.png">
-                    </button>
-                    <button class="text" value = "scissors">
-                        <h3>scissors</h3>
-                        <img src="/images/scissors.jpeg">
+   
+
+    <header class="partOne">
+        <h1>Rock Paper  Scissor</h1>
+        <h2>choose your weapon</h2>
+    </header>
+
+    <main class="main">
+
+            <div class="item">
+                <div class="items">
+                    <h3> Rock</h3>
+                    <button class="select"value ="rock">
+                        <img src="/images/rock1.png" alt="">
                     </button>
                 </div>
-        </div>
+                <div class="items">
+                    <h3>Paper</h3>
+                    <button class="select" value ="paper">
+                        <img src="/images/paper.png" alt="">
+                    </button>
+                </div>
+                <div class="items">
+                    <h3>Scissors</h3>
+                    <button class="select" value ="scissors">
+                        <img src="/images/scissors.jpeg" alt="">
+                    </button>
+                </div>
+            </div>
 
-        <div class="result">
-                <h1 id = "result "></h1>
-                <h3 id = "yourScore">Your Score: <span id ="show"></span> </h3>
-                <h3 id = "computerScore">Computer Score: <span id = "show1"></span></h3>
-          
-        </div>
-        <button class="clear">reset</button>
-    </div>
+            <section class="result">
+                <h1 class="winner">congrats you have won the math</h1>
+
+                <h3 class="youScore"> yourScore : &nbsp; &nbsp; &nbsp;</h3>
+                 <h3 class="youScore">computer &nbsp; : &nbsp; &nbsp; &nbsp;</h3>
+                 <h2 class="liveResult"> tie win or lose</h2>
+            </section>
+    </main>
+    
+
 
 
 
     <script src="index.js"></script>
     
 </body>
-</&nbsp;
+</html>
