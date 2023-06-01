@@ -55,13 +55,26 @@ button:hover{
 }
 .result {
     text-align: center;
+  
     
 }
 .winner {
     margin-bottom: 50px;
 }
+.liveResult {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
 
-
+.reset {
+    width: 200px;
+    height: 80px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: purple;;
+    color: yellowgreen;
+    font-size: xx-large;
+}
 
 
 
