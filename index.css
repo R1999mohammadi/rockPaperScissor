@@ -61,11 +61,8 @@ button:hover{
 .winner {
     margin-bottom: 40px;
 }
-.liveResult {
-    margin-top: 15px;
-    margin-bottom: 80px;
-}
 
+/* 
 .reset {
     width: 200px;
     height: 50px;
@@ -74,10 +71,11 @@ button:hover{
     background-color: purple;;
     color: yellowgreen;
     font-size: xx-large;
+    margin-top: 40px;
 }
 #weapon {
     margin: 50px 0px;
-}
+} */
 
 
 
